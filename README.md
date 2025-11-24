@@ -1,30 +1,36 @@
-# 🏦 Predicción de Otorgamiento de Crédito (German Credit Data)
+#  Predicción de Otorgamiento de Crédito (German Credit Data)
 
-## 📋 Descripción del Proyecto
-Este proyecto implementa un modelo de **Machine Learning** para la evaluación de riesgo crediticio (Credit Scoring). El objetivo es automatizar la fase de análisis cuantitativo en el proceso de otorgamiento de crédito, clasificando a los solicitantes en "Buen Crédito" o "Mal Crédito" basándose en su historial y características demográficas.
+##  Descripción del Proyecto
+Este proyecto implementa un modelo de **Machine Learning** para la evaluación de riesgo crediticio (Credit Scoring). El objetivo es responder las preguntas de una evaluación para para un puesti de analista de datos
 
 Se utiliza el conjunto de datos **German Credit Data** del repositorio UCI Machine Learning.
 
-## 🎯 Contexto de Negocio
-De acuerdo con las mejores prácticas internacionales (Comité de Basilea) y normativas locales (CNBV), el proceso de crédito consta de fases críticas. Este notebook se enfoca en las etapas de:
-1. **Evaluación:** Verificación de capacidad de pago.
-2. **Scoring:** Modelado estadístico para medir la probabilidad de incumplimiento (PD).
+##  Cuestionario a resolver
+De la siguiente liga https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)
+descargue el conjunto de datos, relacionado al Otorgamiento de Crédito y desarrolle lo siguiente:
+1. Introduccion. Describir las fases del otorgamiento de crédito.
+2. Planteamiento del problema
+2.1 Describir el Dataset
+3. Desarrollo
+3.1 Reduccion de dimensionalidad (Analisis de componentes Principales,
+opcional)
+3.2 Realizar un comparativo con dos modelos de aprendizaje NO supervisado
+3.3 Describir que conjunto de características comparten los resultados
+obtenidos con los modelos NO supervisados
+3.4 Realizar un comparativo con dos modelos de aprendizaje supervisado
+3.5 Describir los resultados obtenidos
+3.6 Medir el rendimiento de los modelos
+4. Conclusiones
+4.1 ¿Qué variables proporcionan mayor informaci´ on?
+4.2 ¿Qué modelo tuvo el mejor desempeño y por qué?
+4.3 ¿Qué variables propondrían a fin de mejorar el cálculo del otorgamiento de crédito?
+5. Referencias
+5.1 Citas en formato APA
+5.2 ¿Qué fuentes consultaron para entender el problema?
+5.3 ¿Qué fuentes consultaron para entender y ampliar su conocimiento en los
+modelos de aprendizaje?
 
-## 🛠️ Tecnologías Utilizadas
-* **Lenguaje:** Python 3.x
-* **Análisis de Datos:** Pandas, NumPy
-* **Visualización:** Matplotlib, Seaborn
-* **Modelado:** Scikit-learn (Clasificación)
-
-## 📊 Estructura del Análisis
-El notebook `Otorgamiento_crédito_GermanCreditData_.ipynb` sigue este flujo:
-1. **Carga de Datos:** Ingesta del dataset German Credit.
-2. **Preprocesamiento:** Limpieza de datos, codificación de variables categóricas y manejo de valores nulos.
-3. **Análisis Exploratorio (EDA):** Identificación de patrones en variables como edad, monto del crédito y propósito.
-4. **Modelado:** Entrenamiento de algoritmos de clasificación (ej. Regresión Logística / Árboles de Decisión).
-5. **Evaluación:** Medición del desempeño del modelo mediante Matriz de Confusión y Curva ROC.
-
-## 🚀 Cómo usar este repositorio
+##  Cómo usar este repositorio
 1. Clona el repositorio:
    ```bash
    git clone [https://github.com/DavidComplxSystem-lab/ML.git](https://github.com/DavidComplxSystem-lab/ML.git)
