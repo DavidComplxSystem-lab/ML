@@ -1,7 +1,7 @@
 #  Predicción de Otorgamiento de Crédito (German Credit Data)
 
 ##  Descripción del Proyecto
-Este proyecto implementa un modelo de **Machine Learning** para la evaluación de riesgo crediticio (Credit Scoring). El objetivo es responder las preguntas de una evaluación para para un puesti de analista de datos
+Este proyecto implementa un modelo de **Machine Learning** para la evaluación de riesgo crediticio (Credit Scoring). El objetivo es responder las preguntas de una evaluación para para un puesto de analista de datos que resultó como aprovatorio y culmino en la propuesta de trabajo de analista de datos, mismo que no acepté por discrepancia en los valores de la empresa
 
 Se utiliza el conjunto de datos **German Credit Data** del repositorio UCI Machine Learning.
 
